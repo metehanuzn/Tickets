@@ -14,7 +14,7 @@ if ($requestId === 0) {
     exit;
 }
 
-$conn = oci_connect('YZLM_OLD', 'BYZYZ', 'BYZDB', "AL32UTF8");
+include(includes/conn)
 if (!$conn) {
     die("Veritabanına bağlanılamadı.");
 }

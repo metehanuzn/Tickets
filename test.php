@@ -2,7 +2,7 @@
 phpinfo();
 
 /*
-$conn = oci_connect('YZLM_OLD', 'BYZYZ', 'BYZDB', "AL32UTF8");
+$conn = oci_connect('kullanici', 'sifre');
 
 if ($conn) {
     echo "Oracle bağlantısı başarılı!";

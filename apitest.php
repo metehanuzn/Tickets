@@ -2,8 +2,8 @@
 $ch = curl_init();
 
 $data = [
-    "EMAIL" => "metehanuzun@mail.com",
-    "PASSWORD" => "mth"
+    "EMAIL" => "TEST@mail.com",
+    "PASSWORD" => "TEST"
 ];
 
 curl_setopt($ch, CURLOPT_URL, "http://localhost/api/login_api.php");

@@ -1,6 +1,6 @@
 <?php
 session_start();
-$conn = oci_connect('YZLM_OLD', 'BYZYZ', 'BYZDB', "AL32UTF8");
+include(includes/conn)
 if (!$conn) {
     $e = oci_error();
     die("Veritabanı bağlantı hatası: " . $e['message']);

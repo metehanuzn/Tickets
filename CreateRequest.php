@@ -6,7 +6,7 @@ if (!isset($_SESSION['user_data'])) {
     exit;
 }
 
-$conn = oci_connect('YZLM_OLD', 'BYZYZ', 'BYZDB', "AL32UTF8");
+include(assets/conn);
 if (!$conn) {
     die("Veritabanına bağlanılamadı.");
 }

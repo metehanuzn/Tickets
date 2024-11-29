@@ -1,5 +1,5 @@
 <?php
-$conn = oci_connect('YZLM_OLD', 'BYZYZ', 'BYZDB', "AL32UTF8");
+$conn = oci_connect('KULLANICI', 'SIFRE');
 if (!$conn) {
     die("Veritabanına bağlanılamadı.");
 }
